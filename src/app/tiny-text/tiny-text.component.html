@@ -1,0 +1,7 @@
+<form>
+    <label for="area">Tiny Text Generator</label><br/>
+    <textarea #area (input)="renderTinyText()"></textarea><br/>
+    <label for="argument">Transparent</label>
+    <input type="checkbox" #argument name="Transparent" (click)="renderTinyText()" checked/>
+</form>
+<canvas #canvas width="0" height="0"></canvas>

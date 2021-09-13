@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Recursive';
+    src: url("r.woff2");
+}
+h1,h2,h3,h4,h5,h6 {
+    --mono: "MONO" 1;
+    --casl: "CASL" 0.5;
+    --wght: "wght" 500;
+    --slnt: "slnt" -15;
+    --CRSV: "CRSV" 0.5;
+}
+p,a {
+    --mono: "MONO" 0;
+    --casl: "CASL" 1;
+    --wght: "wght" 300;
+    --slnt: "slnt" 0;
+    --CRSV: "CRSV" 0.5;
+}
+.applet {
+    background-color: rgba(0,0,0,0.25);
+    border:1px solid black;
+    border-radius: 8px;
+    width:fit-content;
+    margin: 0.5em;
+    display: inline-block;
+    padding: 0.5em;
+}
+.applets {
+    margin: auto;
+}
+* {
+    font-family: 'Recursive', monospace;
+    --mono: "MONO" 0;
+    --casl: "CASL" 0;
+    --wght: "wght" 300;
+    --slnt: "slnt" 0;
+    --CRSV: "CRSV" 0.5;
+    font-variation-settings: var(--mono), var(--casl), var(--wght), var(--slnt), var(--CRSV);
+}
