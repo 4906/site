@@ -18,5 +18,7 @@ export class AppComponent {
     {link:'https://reddit.com/u/sed4906h',name:'Reddit'},
     {link:'https://github.com/SED4906',name:'Github'},
     {link:'https://steamcommunity.com/id/sed4906/',name:'Steam'},
-    {link:'https://tf2maps.net/members/sed4906.33880/',name:'TF2Maps'},];
+    {link:'https://tf2maps.net/members/sed4906.33880/',name:'TF2Maps'},
+    {link:'https://www.deviantart.com/sed4906', name:'DeviantArt'},
+  ];
 }
